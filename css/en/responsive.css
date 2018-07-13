@@ -316,7 +316,7 @@
     .banner .owl-stage-outer { width: 215px; }
     #nbo-mobile-banking .item img { height: 400px; }
     #nbo-mobile-banking .owl-dots { bottom: -45px; }
-
+    .active-carousel::before { width: 65px; }
     .digitalguide-container h2 { margin: 30px 0; }
     /* .digitalguide-container .tab-pane { padding: 3% 0px 0% 0px; } */
     .digital-phone-preview { height: 480px; }
