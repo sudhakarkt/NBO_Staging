@@ -1,0 +1,26 @@
+.banner { padding:4% 0; }
+.appwatch-container .container.containerMenu { width:1200px; }
+.banner .hide-desktop, #app-watch .hide-desktop { display:none !important; }
+.owl-carousel .item img.img-responsive { width:auto !important; }
+.getapp { background-position:15px; }
+
+.banner .col-md-4 { width:286px !important; }
+
+#iphonex-mobileframe .iphonex-mobileframe {
+    width: 286px !important;
+    
+}
+#iphonex-mobileframe .phone-preview {
+    width:286px !important;
+    height: 566px !important;
+}
+
+#iphonex-mobileframe .owl-carousel {
+    width:280px !important;
+    height: 555px !important;
+    margin:15px auto 0px -15px !important;
+}
+#iphonex-mobileframe #nbo-mobile-banking.owl-carousel .item .img-responsive {
+    width: 245px !important;
+    height: 530px !important;
+}
