@@ -231,7 +231,7 @@
     .active-carousel .item img { height: 430px; }
     /* .tab-pane.active .owl-dots { margin-top: 30px; } */
     .active-carousel::before {
-        width: 32px;
+        width: 62px;
     }
     #app-watch .owl-nav .owl-prev, #app-watch .owl-nav .owl-next {     padding: 15px 26px !important; top: 40%; }
 }
@@ -295,6 +295,18 @@
     .appwatch-container .container-fluid {  padding-left: 30px; padding-right: 30px;}		
     #app-watch .owl-nav .owl-prev { left: -30px; }		
     #app-watch .owl-nav .owl-next { right: -30px; }		
+}
+
+@media (min-width:1152px) and (max-width:1280px)  {
+    .active-carousel::before {
+        width: 69px;
+    }
+}
+
+@media (min-width:1281px) and (max-width:1360px)  {
+    .active-carousel::before {
+        width: 65px;
+    }
 }
 
 @media (min-width:1281px) and (max-width:1366px)  {
