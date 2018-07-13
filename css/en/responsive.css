@@ -353,6 +353,9 @@
 }
 
 
+
+
+
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 812px) 
@@ -382,6 +385,14 @@ and (orientation : portrait) {
             width: 37px;
             left: -7px;
         }
+}
+
+@media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 640px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) { 
+    .active-carousel .digital-phone-preview { width: 100% !important; }
 }
 
 @media only screen 
@@ -437,6 +448,8 @@ and (-webkit-min-device-pixel-ratio: 1.5)  {
     .carousel-content { padding-top: 15%; }
     .video-container { height: 600px; }
     .active-carousel .digital-phone-preview { width: 308.5px !important; }
+    .item.container { margin: 0 auto; width: 90%; }
+    #app-watch .item.container .col-md-3.hide-mobile img { margin-right: 0; width: 215px; }
 }
 
 @media only screen 
