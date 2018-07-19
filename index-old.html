@@ -11,25 +11,25 @@
     <link rel="stylesheet" href="css/en/bootstrap.min.css">
         
     <!-- Owl Carousel  CSS -->
-    <link rel="stylesheet" href="https://sudhakarkt.github.io/NBO_Staging/css/en/Mobile.owl.carousel.min.css">
-    <link rel="stylesheet" href="https://sudhakarkt.github.io/NBO_Staging/css/en/Mobile.owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/en/Mobile.owl.carousel.min.css">
+    <link rel="stylesheet" href="css/en/Mobile.owl.theme.default.min.css">
 
     <!-- Custom  CSS -->
     <link rel="stylesheet" href="css/en/functional.css"/>
     <link rel="stylesheet" href="css/en/main.css">
-    <link rel="stylesheet" href="https://sudhakarkt.github.io/NBO_Staging/css/en/animate.css">
-    <link rel="stylesheet" href="https://sudhakarkt.github.io/NBO_Staging/css/en/responsive-nav.css">
-    <link rel="stylesheet" href="https://sudhakarkt.github.io/NBO_Staging/css/en/responsive.css">
-    <link rel="stylesheet" href="https://sudhakarkt.github.io/NBO_Staging/css/en/responsive-new.css">
-    <link rel="stylesheet" href="https://sudhakarkt.github.io/NBO_Staging/css/en/overide.css">
+    <link rel="stylesheet" href="css/en/animate.css">
+    <link rel="stylesheet" href="css/en/responsive-nav.css">
+    <link rel="stylesheet" href="css/en/responsive.css">
+    <link rel="stylesheet" href="css/en/responsive-new.css">
+    <link rel="stylesheet" href="css/en/overide.css">
 
     <!--[if IE 8]><html class="ie8"><![endif]-->
     <!--[if IE 9]><html class="ie9"><![endif]-->
-    <!--[if IE 8]><link rel="stylesheet" href="https://sudhakarkt.github.io/NBO_Staging/css/en/ie8-responsive.css"><![endif]-->
+    <!--[if IE 8]><link rel="stylesheet" href="css/en/ie8-responsive.css"><![endif]-->
     <!--[if lt IE 9]>
-    <script src="https://sudhakarkt.github.io/NBO_Staging/js/html5shiv.js"></script>
-    <script src="https://sudhakarkt.github.io/NBO_Staging/js/respond.min.js"></script>
-    <link rel="stylesheet" href="https://sudhakarkt.github.io/NBO_Staging/css/en/iefix.css">
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <link rel="stylesheet" href="css/en/iefix.css">
     <![endif]-->
     <title>Personal Banking - National Bank of Oman</title>
 </head>
@@ -687,22 +687,20 @@
 </footer>
 
 <!-- jQuery first, then Bootstrap JS -->
-<script src="https://sudhakarkt.github.io/NBO_Staging/js/jquery-1.11.1.min.js" ></script>
-<script src="https://sudhakarkt.github.io/NBO_Staging/js/bootstrap.min.js" ></script>
+<script src="js/jquery-1.11.1.min.js" ></script>
+<script src="js/bootstrap.min.js" ></script>
 
 <!-- Owl Carousel  JS -->
-<script src="https://sudhakarkt.github.io/NBO_Staging/js/en/owl-carousel.js"></script>
-<script src="https://sudhakarkt.github.io/NBO_Staging/js/flowplayer.min.js"></script>
+<script src="js/en/owl-carousel.js"></script>
+<script src="js/flowplayer.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
 <!-- Custom  JS -->
-<script src="https://sudhakarkt.github.io/NBO_Staging/js/en/main.js"></script>
-
+<script src="js/en/main.js"></script>
 
 <script>
     // 2. This code loads the IFrame Player API code asynchronously.
-    // this code checks if it's ie8 or ie9 else it the script below
     if ($("html.ie8").length <= 0 && $("html.ie9").length <= 0) {
         var tag = document.createElement('script');        
 
@@ -763,7 +761,6 @@
 
 }
 else {
-    setTimeout(function(){ 
     crossDomainAjax('wNVUesoO29E', function (data) {
     });
 
@@ -780,7 +777,7 @@ else {
                 dom.async = false;
 
                 if (JSON == null || typeof (JSON) == 'undefined') {
-                    //alert('ok');
+                    alert('ok');
                     JSON = $.parseJSON(data.firstChild.textContent);
                 }
 
@@ -799,7 +796,6 @@ else {
         document.getElementById("ievideo").innerHTML = '<div id="content" class="ieplayer"><div data-ratio="0.4167" class="player"  style="background: url(http://img.youtube.com/vi/'+id+'/maxresdefault.jpg); height: 100%; -webkit-background-size: cover;background-size: cover;"><video><source type="video/mp4" src="'+videoUrl+'"></source></video></div></div>';
             $(".player").flowplayer();
     }
-    }, 2000);
 
 }
 </script>

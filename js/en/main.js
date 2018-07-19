@@ -119,7 +119,7 @@ function mobileApp(){
 $('#nbo-mobile-banking').owlCarousel({
     loop:true,
     responsiveClass:true,
-    autoplay:false,
+    autoplay:true,
     mouseDrag : false,
     animateOut: 'fadeOut',
     animateIn: 'fadeIn',
