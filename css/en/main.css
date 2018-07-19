@@ -205,9 +205,9 @@ ul.list-styled-footer li a:hover {
   top: 0px; 
   z-index: 10; 
   pointer-events: none;   
-   filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/main-banner-image.png', sizingMethod='scale')";
+  /* filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/main-banner-image.png', sizingMethod='scale')";
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/main-banner-image.png', sizingMethod='scale')";
-  /* behavior: url(backgroundsize.min.htc);
+   behavior: url(backgroundsize.min.htc);
   -ms-behavior: url(backgroundsize.min.htc); */
 	
  }
